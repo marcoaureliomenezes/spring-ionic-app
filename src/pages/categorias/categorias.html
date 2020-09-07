@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>categorias</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <ion-list>
+    <ion-list-header>O que vai ser hoje?</ion-list-header>
+    <button ion-item *ngFor="let item of items">
+      <ion-thumbnail item-start>
+        <img id="img" src="{{bucketUrl}}/cat{{item.id}}.jpg">
+      </ion-thumbnail>
+      <ion-label>
+        <h2>{{item.nome}}</h2>
+      </ion-label>
+    </button>
+  </ion-list>
+</ion-content>
