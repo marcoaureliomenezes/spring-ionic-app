@@ -10,7 +10,7 @@ export class StorageService {
         if(usr == null) {
             return null;
         } else {
-            JSON.parse(usr);
+            return JSON.parse(usr);
         }
     }
     setLocalUser(obj: LocalUser) {
