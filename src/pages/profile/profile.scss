@@ -1,7 +1,11 @@
 page-profile {
+    ion-avatar {
+        display: flex;
+        justify-content: center;
+    }
     .circle {
-        width: 60px;
+        width: 40%;
         border-radius: 100%;
-        margin: 25px, auto 0 auto;
+        margin: 25px auto 15px auto;
     }
 }
