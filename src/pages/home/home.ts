@@ -37,6 +37,8 @@ export class HomePage {
     error => {});
   }
 
+
+
   login() {
     this.auth.authenticate(this.creds)
     .subscribe(response => {
@@ -44,5 +46,10 @@ export class HomePage {
       this.navCtrl.setRoot('CategoriasPage');
     },
     error => {})
+  }
+
+  signup() {
+    console.log('passou');
+    this.navCtrl.push('SignupPage');
   }
 }
