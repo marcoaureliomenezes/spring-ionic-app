@@ -1,18 +1,30 @@
 page-home {
     h3 {
         text-align: center;
-        color: rgb(250, 64, 64);
+        color: white;
+        font-size: 30px;
         font-weight: 700px;
     }
     .content {
-        background-color: rgb(65, 32, 2);
+        background: #0f0c29;
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+
     }
+    .item1 { margin-top: 20px }
+    .item { margin-bottom: 10px }
+    .logar { 
+        background-color: rgb(167, 29, 29); 
+        margin-bottom: 10px;
+    }
+    .registrar { color: white }
     img {
         width: 200px;
         align-self: center;
         margin: auto;
         display: block;
         padding: 10px;
+        border-radius: 100%;
     }
     
 }

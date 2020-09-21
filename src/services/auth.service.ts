@@ -35,7 +35,6 @@ export class AuthService {
                 responseType: 'text'
             })
     }
-
     successfulLogin(authorizationValue : string) {
         let tok = authorizationValue.substring(7);
         let user: LocalUser = { 
@@ -44,7 +43,6 @@ export class AuthService {
         }
         this.storage.setLocalUser(user);
     }
-
     logout() {
         this.storage.setLocalUser(null);
     }
