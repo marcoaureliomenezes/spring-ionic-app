@@ -1,24 +1,23 @@
 page-categorias {
 
-}
-
-ion-list-header {
-    text-align: center;
-}
-#img {
-    height: 90px;
-    width: 90px;
-}
-
-.content {
-    background: #0f0c29;
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
-
-}
-.header {
-    color: white;
-}
-.content h2 {
-    color: white;
+    ion-list-header {
+        text-align: center;
+    }
+    #img {
+        height: 90px;
+        width: 90px;
+    }
+    
+    .content {
+        background: #0f0c29;
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    
+    }
+    .header {
+        color: white;
+    }
+    .content h2 {
+        color: white;
+    }
 }

@@ -25,31 +25,31 @@ export class SignupPage {
     public estadoService: EstadoService) {
 
       this.formGroup = this.formBuilder.group({
-        nome: ['Rosemberg Faria',
+        nome: ['',
           [Validators.required,
             Validators.minLength(5), 
             Validators.maxLength(120)]
         ],
 
-        email: ['zeppelim@gmail.com', 
+        email: ['', 
           [Validators.required, 
             Validators.email]
           ],
         tipo : ['1', 
           [Validators.required]
         ],
-        cpfOuCnpj : ['06134596280', 
+        cpfOuCnpj : ['', 
           [Validators.required,
             Validators.minLength(11),
             Validators.maxLength(14)]
         ],
-        senha : ['123', [Validators.required]],
-        logradouro : ['Rua Paraná', [Validators.required]],
-        numero : ['54', [Validators.required]],
+        senha : ['', [Validators.required]],
+        logradouro : ['', [Validators.required]],
+        numero : ['', [Validators.required]],
         complemento : ['', []],
         bairro : ['Centro', []],
-        cep : ['35400000', [Validators.required]],
-        telefone1 : ['977261827', [Validators.required]],
+        cep : ['', [Validators.required]],
+        telefone1 : ['', [Validators.required]],
         telefone2 : ['', []],
         telefone3 : ['', []],
         estadoId : ["", [Validators.required]],
