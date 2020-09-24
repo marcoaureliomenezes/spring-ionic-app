@@ -11,7 +11,7 @@
   
   <ion-list>
     <ion-list-header class="header">Veja nossos produtos</ion-list-header>
-    <button ion-item *ngFor="let item of items" class="content">
+    <button ion-item *ngFor="let item of items" class="content" (click)="showProdutos()">
       <ion-thumbnail item-start>
         <img id="img" src="{{bucketUrl}}/cat{{item.id}}.jpg">
       </ion-thumbnail>
