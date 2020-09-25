@@ -69,5 +69,4 @@ export class CartService {
         }
         return sum
     }
-
 }

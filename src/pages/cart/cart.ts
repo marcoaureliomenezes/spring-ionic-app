@@ -51,4 +51,7 @@ export class CartPage {
   total(produto: ProdutoDTO) {
     return this.cartService.total();
   }
+  goOn() {
+    this.navCtrl.setRoot('CategoriasPage');
+}
 }
