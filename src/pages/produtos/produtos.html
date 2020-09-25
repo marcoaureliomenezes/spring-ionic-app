@@ -4,10 +4,15 @@
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>Produtos</ion-title>
+    <ion-fab middle right edge>
+      <button navPush="CartPage" ion-fab mini><ion-icon name="cart"></ion-icon></button>
+    </ion-fab>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+
+
   <ion-list>
     <button ion-item *ngFor="let item of items" (click)="showDetail(item.id)">
       <ion-thumbnail item-start>

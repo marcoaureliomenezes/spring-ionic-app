@@ -8,7 +8,9 @@
 </ion-header>
 
 <ion-content padding class="content">
-  
+  <ion-fab top right edge>
+    <button navPush="CartPage" ion-fab mini><ion-icon name="cart"></ion-icon></button>
+  </ion-fab>
   <ion-list>
     <ion-list-header class="header">Veja nossos produtos</ion-list-header>
     <button ion-item *ngFor="let item of items" class="content" (click)="showProdutos(item.id)">
